@@ -69,7 +69,7 @@ class WP_eCommerce {
 	 */
 	public function _register_core_components( $components ) {
 		$components['merchant']['core-v2'] = array(
-			'title'    => __( 'WP e-Commerce Merchant API v2', 'wpsc' ),
+			'title'    => __( 'Sathya v2', 'wpsc' ),
 			'includes' =>
 				WPSC_FILE_PATH . '/wpsc-components/merchant-core-v2/merchant-core-v2.php'
 		);
